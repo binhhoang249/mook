@@ -23,6 +23,8 @@ pnpm install
 pnpm dev
 ```
 ### 📁 Project Structure
+
+```bash
 src/
 ├── assets/        # Images, icons, fonts
 ├── components/    # Reusable UI components
@@ -46,10 +48,4 @@ This project uses ESLint, Prettier, and (optional) Husky for clean and consisten
         ✔️ File/Folder naming: kebab-case
         ✔️ Variables & functions: camelCase
         ✔️ Components & types: PascalCase
-### 📜 Example Scripts
-``` bash 
-pnpm dev         # Start development server
-pnpm build       # Build for production
-pnpm lint        # Run ESLint checks
-pnpm format      # Run Prettier formatter
 ```
